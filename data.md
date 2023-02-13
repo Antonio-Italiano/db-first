@@ -2,8 +2,9 @@ struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usa
 
  CARS                | TYPES        | INDICI      | ATTRIBUTI            |
  ------------------- | ------------ | ----------- | -------------------- |
- LICENSE PLATE       | CHAR(7)      | PRIMARY KEY | NOT NULL, UNIQUE     |
- FRAME NUMBER        | CHAR(17)     | PRIMARY KEY | NOT NULL, UNIQUE     |
+ ID                  |              | PRIMARY KEY | NOT NULL, UNIQUE, AUTO INCREMENT |
+ LICENSE PLATE       | CHAR(7)      |             | NOT NULL, UNIQUE     |
+ FRAME NUMBER        | CHAR(17)     |             | NOT NULL, UNIQUE     |
  BRAND NAME          | VARCHAR(50)  |             | NOT NULL             |
  REGISTRATION YEAR   | YEAR         |             | NOT NULL             | 
  CAR DISPLACEMENT    | SMALLINT     |             | NOT NULL             |
